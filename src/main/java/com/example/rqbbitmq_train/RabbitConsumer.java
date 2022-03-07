@@ -33,7 +33,5 @@ public class RabbitConsumer {
         TimeUnit.SECONDS.sleep(5);
         channel.close();
         connection.close();
-
     }
-
 }
